@@ -17,6 +17,7 @@ public class Password {
 	public Password(int lon) {
 		longitud=lon;
 		contraseña=new char[longitud];
+		generarPassword();
 	}
 	
 	public char[] getContraseña() {
